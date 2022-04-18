@@ -1,0 +1,63 @@
+# Kickstarting with Excel
+
+## Overview of Project
+
+	How Crowdfunding is generating funds from various campaigns initiative in multiples counties 
+
+### Purpose
+	
+	The Purpose of the exercise to explain the success and failure or the fund-raising campaigns based on various subcategories institutive    
+
+## Analysis and Challenges
+
+	Challenges: Understanding data source from the Kickstarter and creates multiple Pivot tables and charts.    
+	Challenge 1: Outcomes Based Launch Date: I was not sure what is date conversion from Unix to readable   /General dates. I had to read the Unix Timestamp converter for readable Date. I also used Unix Timestamp conversion Tools 
+
+	Challenge 2: Analysis of Outcomes Based on Goals:  I didn’t know the “COUNTIFS ()”, which required the Criteria ranges and Criteria which multiples columns. 
+	I did Google search it but didn’t figure it out how to solve this formula. Then reviewed the “Module 1 Challenge” the  “SHOW HINT” video and understand the formula better. I figured it out the formula based on the video. 
+
+
+### Analysis of Outcomes Based on Launch Date
+	
+	This Analysis tells campaigns outcomes based on the Year fund raising by month.  There are 4114 different campaign initiatives.  
+	There are 349 campaign initiatives canceled 
+	There are 1,530 campaign initiatives failed 
+	There are 2185 campaign initiatives successful 
+
+	Louis and the team can analyze the data and find 46% unsuccessful campaign initiative 
+	Louis and team can analyze approximately 53% successful campaign initiative 
+
+
+### Analysis of Outcomes Based on Goals
+
+	This Analysis gives one of successful Subcategories “Plays” where, Goal in multiple ranges with percentage of successful and Percentage failed. It also gives Zero cancelation of this campaign as well. When Campaign has lower range of Goals that has right rate of success. When it is high ranges of Goal and less successful or failed campaign. 
+	The line chart also shows where the intersection happens between success and failed goals
+
+
+### Challenges and Difficulties Encountered
+
+	1.Outcomes Based on Goals: I could not move the ranges sort by low to high.  I had to call get support help from Ask BCS Learning Assistant to help me on that.  I had to manually move UP those ranges.
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+	
+	1. Based on the analysis, 53% Successful campaign over 12-months period 
+	2. Based on the analysis 46% failure/canceled campaign over 12-months period 
+
+
+- What can you conclude about the Outcomes based on Goals?
+	
+	When camping has Lower the goal amount the percentage of success rates are high, when it has higher value goal the success rate goes down 
+
+- What are some limitations of this dataset?
+
+	I am not sure there are some limitations of this dataset. I believe this dataset have plenty of information to make a calculation   
+
+- What are some other possible tables and/or graphs that we could create?
+
+	1.Graph by country and find out Successful and failed campaigns 
+	2.Graph for Subcategories successful and failed 
+	3.Goals by Country  
+
+
